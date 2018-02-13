@@ -1,0 +1,39 @@
+{
+  "id" : "",
+  "name" : "MyFirstDECIDEApp",
+  "description" : "This is a placeholder description for my first DECIDE app description",
+  "version" : "",
+  "highTechnologicalRisk" : false,
+  "microservices" : [ {
+    "patterns" : [ ],
+    "programmingLanguage" : "",
+    "type" : "",
+    "category" : null,
+    "repo" : "",
+    "nfrs" : [ ],
+    "stateless" : true,
+    "publicIP" : false,
+    "endpoint" : null,
+    "container_ref" : "",
+    "deployment_order" : 0,
+    "dependencies" : [ ],
+    "infrastructure_requirements" : {
+      "disk_min" : null,
+      "disk_max" : null,
+      "ram" : null
+    },
+    "name" : "",
+    "language" : "",
+    "id" : "f84e4fa9-f1c3-4c85-b678-6aece0e1d919"
+  } ],
+  "projectNfrs" : [ ],
+  "app_mcsla" : {
+    "id" : null,
+    "description" : null,
+    "visibility" : null,
+    "validityPeriod" : null,
+    "slas" : null
+  },
+  "containers" : [ ],
+  "virtual_machines" : [ ]
+}
