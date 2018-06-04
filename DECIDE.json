@@ -1,6 +1,7 @@
 {
   "id" : "0f0eaca0-c87d-4b0a-995e-56b5232e7d5d",
   "name" : "MyExample",
+  "description" : "This is an example for DECIDE project",
   "schemaVersion" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "microservices" : [ {
