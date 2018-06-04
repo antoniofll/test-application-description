@@ -1,10 +1,10 @@
 {
-  "id" : "5e4ebc77-7659-4e62-b137-2e0e78a3910a",
-  "name" : "example",
+  "id" : "0f0eaca0-c87d-4b0a-995e-56b5232e7d5d",
+  "name" : "MyExample",
   "schemaVersion" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "microservices" : [ {
-    "id" : "88387cf7-58db-41f6-81bf-1aa21d06e3fd",
+    "id" : "0ed7ab8e-dc55-487e-9bc2-107ab6d2eb01",
     "name" : "Default",
     "stateful" : false,
     "publicIp" : false,
