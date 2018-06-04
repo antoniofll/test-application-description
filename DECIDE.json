@@ -1,10 +1,10 @@
 {
-  "id" : "0870ac0c-bfee-464b-9112-f99671ce5fe9",
+  "id" : "f4c8bf99-96c1-4e4f-9513-c9339033c314",
   "name" : "MyFirstProject",
   "schemaVersion" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "microservices" : [ {
-    "id" : "05afd0d2-bb71-4570-af31-b03a7df991b4",
+    "id" : "3dc082ed-c257-4a31-a72a-0bf213df3f2d",
     "name" : "Default",
     "stateful" : false,
     "publicIp" : false,
