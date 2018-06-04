@@ -1,0 +1,14 @@
+{
+  "id" : "5e4ebc77-7659-4e62-b137-2e0e78a3910a",
+  "name" : "example",
+  "schemaVersion" : "0.2.2-alpha",
+  "highTechnologicalRisk" : false,
+  "microservices" : [ {
+    "id" : "88387cf7-58db-41f6-81bf-1aa21d06e3fd",
+    "name" : "Default",
+    "stateful" : false,
+    "publicIp" : false,
+    "endpoints" : [ "http://mircroservice1.com/service" ],
+    "deploymentOrder" : 0
+  } ]
+}
