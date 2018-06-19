@@ -1,7 +1,7 @@
 {
   "id" : "44ec5c46-d11f-4f13-aaae-7140618932f2",
   "name" : "decide-project-hey",
-  "schemaVersion" : "0.2.2-alpha",
+  "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "microservices" : [ {
     "id" : "1f1d16df-2841-4f7d-8bfc-376e147f935a",
