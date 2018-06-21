@@ -1,12 +1,29 @@
 {
-  "id" : "8b4b4c7b-a111-4089-a3e6-47c31d357f0a",
-  "name" : "EEE",
-  "description" : "222",
+  "id" : "e50b425e-4449-4f39-8851-d1e11979ec36",
+  "name" : "SockShop",
+  "description" : "My first app",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
+  "nfrs" : [ {
+    "kind" : "availability",
+    "tags" : [ "Application" ],
+    "unit" : "percentage",
+    "quantitativeAvailability" : "90"
+  }],
   "microservices" : [ {
-    "id" : "adae2860-d13b-4430-9946-6752b84c9159",
-    "stateful" : false,
+    "id" : "4398e4a9-2a61-492d-8edf-a4e1bf8af363",
+    "name" : "ms1",
+    "stateful" : true,
+    "programmingLanguage" : "Java",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "http://mircroservice1.com/service" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "70344812-fbd1-48d7-be6d-468b5ef26a4a",
+    "name" : "ms2",
+    "stateful" : true,
+    "programmingLanguage" : "Python",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "http://mircroservice1.com/service" ],
