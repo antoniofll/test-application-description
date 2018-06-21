@@ -1,13 +1,14 @@
 {
-  "id" : "44ec5c46-d11f-4f13-aaae-7140618932f2",
-  "name" : "decide-project-hey",
+  "id" : "8b4b4c7b-a111-4089-a3e6-47c31d357f0a",
+  "name" : "EEE",
+  "description" : "222",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "microservices" : [ {
-    "id" : "1f1d16df-2841-4f7d-8bfc-376e147f935a",
-    "name" : "Default",
+    "id" : "adae2860-d13b-4430-9946-6752b84c9159",
     "stateful" : false,
-    "publicIp" : false,
+    "tags" : [ "Application" ],
+    "publicIP" : false,
     "endpoints" : [ "http://mircroservice1.com/service" ],
     "deploymentOrder" : 0
   } ]
