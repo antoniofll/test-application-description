@@ -1,29 +1,25 @@
 {
-  "id" : "e50b425e-4449-4f39-8851-d1e11979ec36",
-  "name" : "SockShop",
-  "description" : "My first app",
+  "id" : "18970dfa-a96d-4161-8746-08c6f4b99739",
+  "name" : "OneApplication",
+  "description" : "my description",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
     "unit" : "percentage",
-    "quantitativeAvailability" : "90"
-  }],
+    "quantitativeAvailability" : "98"
+  }, {
+    "kind" : "performance",
+    "tags" : [ "Application" ],
+    "unit" : "millisecond",
+    "quantitativeResponseTime" : 300
+  } ],
   "microservices" : [ {
-    "id" : "4398e4a9-2a61-492d-8edf-a4e1bf8af363",
-    "name" : "ms1",
+    "id" : "16a1a50b-45cf-4ab3-940f-63c5cc8a225f",
+    "name" : "Microservice 1",
     "stateful" : true,
     "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "http://mircroservice1.com/service" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "70344812-fbd1-48d7-be6d-468b5ef26a4a",
-    "name" : "ms2",
-    "stateful" : true,
-    "programmingLanguage" : "Python",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "http://mircroservice1.com/service" ],
