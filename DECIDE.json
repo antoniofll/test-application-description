@@ -1,25 +1,34 @@
 {
-  "id" : "18970dfa-a96d-4161-8746-08c6f4b99739",
-  "name" : "OneApplication",
-  "description" : "my description",
+  "id" : "80ed4488-0d23-4456-be96-7e68266ddc09",
+  "name" : "Sock Shop",
+  "description" : "First project of DECIDE platform",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
-    "kind" : "availability",
-    "tags" : [ "Application" ],
-    "unit" : "percentage",
-    "quantitativeAvailability" : "98"
-  }, {
     "kind" : "performance",
     "tags" : [ "Application" ],
     "unit" : "millisecond",
     "quantitativeResponseTime" : 300
+  }, {
+    "kind" : "availability",
+    "tags" : [ "Application" ],
+    "unit" : "percentage",
+    "quantitativeAvailability" : "99"
   } ],
   "microservices" : [ {
-    "id" : "16a1a50b-45cf-4ab3-940f-63c5cc8a225f",
-    "name" : "Microservice 1",
+    "id" : "f86b54eb-a467-4e8b-b715-244c8a8afaec",
+    "name" : "microservice 1",
     "stateful" : true,
     "programmingLanguage" : "Java",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "http://mircroservice1.com/service" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "54d8faf1-ab05-4b28-b225-20079aeed804",
+    "name" : "microservice 2",
+    "stateful" : false,
+    "programmingLanguage" : "Python",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "http://mircroservice1.com/service" ],
