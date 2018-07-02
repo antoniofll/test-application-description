@@ -1,14 +1,14 @@
 {
-  "id" : "8aeb4a20-ab79-435e-9998-84156c56ad1e",
-  "name" : "BBB",
-  "description" : "bb",
+  "id" : "fbd5051a-96a7-4893-94c7-38c609f0c570",
+  "name" : "CCC",
+  "description" : "we",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
     "unit" : "percentage",
-    "quantitativeAvailability" : "99,9"
+    "quantitativeAvailability" : "98"
   }, {
     "kind" : "performance",
     "tags" : [ "Application" ],
@@ -16,7 +16,7 @@
     "quantitativeResponseTime" : 300
   } ],
   "microservices" : [ {
-    "id" : "6bee62d0-71ee-44ed-a689-92e75c643a55",
+    "id" : "7e5d33e4-869c-4193-8217-de135961406c",
     "name" : "edge-router",
     "stateful" : false,
     "programmingLanguage" : "Shell",
@@ -25,7 +25,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "4a3c6f86-1cfb-4dbd-b902-a6c55e7ce500",
+    "id" : "b0531903-6b08-4573-8911-58fb0ba401c6",
     "name" : "catalogue",
     "stateful" : false,
     "programmingLanguage" : "Go",
@@ -34,7 +34,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "1529d83f-4fd7-4d1f-89de-bbb20f6419d5",
+    "id" : "a36949a4-c50c-43f5-93be-d70076747dcd",
     "name" : "catalogue-db",
     "stateful" : false,
     "programmingLanguage" : "MySQL",
@@ -43,7 +43,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "4d4c7824-0820-4885-a6d4-571235a34c17",
+    "id" : "19fd8e37-d2e3-4e83-b6a7-91dabc6f88cf",
     "name" : "carts",
     "stateful" : false,
     "programmingLanguage" : "Java",
@@ -52,7 +52,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "ca62e630-fb26-456f-aad8-12a8e0399a69",
+    "id" : "916d35d8-ac09-44e0-9a2a-2d2a3823e1ed",
     "name" : "carts-db",
     "stateful" : false,
     "programmingLanguage" : "MongoDB",
@@ -61,7 +61,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "c33166c6-e220-45d7-8d3c-1f11edd35543",
+    "id" : "a307e51f-9b8e-49dc-b1fb-ffe754900265",
     "name" : "orders",
     "stateful" : false,
     "programmingLanguage" : "Java",
@@ -70,7 +70,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "cb081367-b77d-4713-877b-c19d131dd9f9",
+    "id" : "fc0b1576-cdc9-4815-a754-d43882bf11c6",
     "name" : "payment",
     "stateful" : false,
     "programmingLanguage" : "Go",
@@ -79,7 +79,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "ff7f5185-29f1-44df-815c-9f88f01fdbd1",
+    "id" : "2c739765-2f3e-4d53-acf5-9fe52099b5b3",
     "name" : "queue-master",
     "stateful" : false,
     "programmingLanguage" : "Java",
@@ -88,7 +88,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "ac52f243-3f97-4219-908f-4e0b9eea3d8d",
+    "id" : "573429e1-237f-462a-b440-cc5a34dde1ed",
     "name" : "shipping",
     "stateful" : false,
     "programmingLanguage" : "Java",
@@ -97,7 +97,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "0bc4a3b2-7a2c-4e94-b8f4-fbd2a95f45f3",
+    "id" : "9fd784b7-995a-4d0f-ad60-0f14f0acbc69",
     "name" : "user",
     "stateful" : false,
     "programmingLanguage" : "Go",
@@ -106,7 +106,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   }, {
-    "id" : "aebe55fe-9423-4e25-977e-85f5b31c64fe",
+    "id" : "af22c802-93f4-4901-a970-92e1ccecbb04",
     "name" : "user-db",
     "stateful" : false,
     "programmingLanguage" : "MongoDB",
