@@ -24,5 +24,19 @@
     "publicIP" : false,
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
-  } ]
+  } ],
+  "recommendedPatterns":[{
+    "categories":["http://decideh2020.eu/resources/patterncategories/development"],
+    "positiveImpacts":["http://decideh2020.eu/resources/patterns/availability"],
+    "title":"User Interface Component",
+    "uriRef":"http://decideh2020.eu/resources/patterns/user-interface-component",
+    "selected": false
+  },
+  {
+    "categories":["http://decideh2020.eu/resources/patterncategories/development"],
+    "positiveImpacts":["http://decideh2020.eu/resources/patterns/availability"],
+    "title":"User Interface Component",
+    "uriRef":"http://decideh2020.eu/resources/patterns/user-interface-component",
+    "selected":true
+  }]
 }
