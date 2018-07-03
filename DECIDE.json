@@ -14,24 +14,6 @@
     "tags" : [ "Application" ],
     "unit" : "millisecond",
     "quantitativeResponseTime" : 100
-  },
-           {
-    "kind" : "scalability",
-    "tags" : [ "Application" ],
-    "unit" : "millisecond",
-    "quantitativeResponseTime" : 100
-  },
-          {
-    "kind" : "location",
-    "tags" : [ "Application" ],
-    "unit" : "millisecond",
-    "quantitativeResponseTime" : 100
-  },
-           {
-    "kind" : "cost",
-    "tags" : [ "Application" ],
-    "unit" : "millisecond",
-    "quantitativeResponseTime" : 100
   }],
   "microservices" : [ {
     "id" : "bc01ae1f-ec58-4e9f-9f9e-ab2753a2c13f",
