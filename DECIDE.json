@@ -25,7 +25,7 @@
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
   } ]
-  "schema" : [ {
+  "schema": [ {
     "microservices" : [ "15f66315-bd6b-41d5-837a-a0b94e188978", "2ffa33ff-1f6f-4197-9199-48b7040386d2", "69d265aa-fb64-43b2-934a-a87278827c9c", "71948dd0-f8d0-4bfc-b262-50dd04661013", "52ee44fe-dcef-479d-a6f8-2b761cc65d07", "17151dde-ec54-488c-b9f1-638fd15b2c28", "de5d2442-09bc-4d59-99ff-ddfe5724fa5c", "c57a1fbd-d0ef-43c4-912d-5b7a5d066320", "eabad57d-7cae-4e2b-bebf-1d95b8534f53" ],
     "csId" : "56",
     "index" : 1604311041
