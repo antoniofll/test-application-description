@@ -1,42 +1,100 @@
 {
-  "id" : "0a09c3eb-0304-4cd8-bc9b-cbea10f907e3",
-  "name" : "MyAppProject",
-  "description" : "Description",
+  "id" : "d809ec9f-e550-459a-95d6-4f69d2f1204d",
+  "name" : "Sockkkk",
+  "description" : "A generic microservices application",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
     "unit" : "percentage",
-    "quantitativeAvailability" : "98"
+    "quantitativeAvailability" : "99"
   }, {
     "kind" : "performance",
     "tags" : [ "Application" ],
     "unit" : "millisecond",
     "quantitativeResponseTime" : 100
-  }],
+  } ],
   "microservices" : [ {
-    "id" : "bc01ae1f-ec58-4e9f-9f9e-ab2753a2c13f",
-    "name" : "ms1",
+    "id" : "4a400f9d-6bb0-4562-abf3-c66935d74fe9",
+    "name" : "front-end",
+    "stateful" : false,
+    "programmingLanguage" : "Html",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "dd213fdf-abae-43de-9c34-411f8acfe313",
+    "name" : "edge-router",
+    "stateful" : false,
+    "programmingLanguage" : "Shell",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "aff848fd-cf05-416b-b860-b6eab0c9092f",
+    "name" : "catalogue",
+    "stateful" : false,
+    "programmingLanguage" : "Go",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "34a75a84-ebf2-4440-8492-1c2952a4e6ef",
+    "name" : "carts",
     "stateful" : false,
     "programmingLanguage" : "Java",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
-  } ],
-  "recommendedPatterns":[{
-    "categories":["http://decideh2020.eu/resources/patterncategories/development"],
-    "positiveImpacts":["http://decideh2020.eu/resources/patterns/availability"],
-    "title":"User Interface Component",
-    "uriRef":"http://decideh2020.eu/resources/patterns/user-interface-component",
-    "selected": false
-  },
-  {
-    "categories":["http://decideh2020.eu/resources/patterncategories/development"],
-    "positiveImpacts":["http://decideh2020.eu/resources/patterns/availability"],
-    "title":"User Interface Component",
-    "uriRef":"http://decideh2020.eu/resources/patterns/user-interface-component",
-    "selected":true
-  }]
+  }, {
+    "id" : "ad15b2f7-9158-4559-ada8-d2327ed1b286",
+    "name" : "orders",
+    "stateful" : false,
+    "programmingLanguage" : "Java",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "dfc9652f-63cf-4522-a7f1-7da02ea0f9a0",
+    "name" : "payment",
+    "stateful" : false,
+    "programmingLanguage" : "Go",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "2b0c4f89-7647-4948-beeb-e271ed5a59e8",
+    "name" : "queue-master",
+    "stateful" : false,
+    "programmingLanguage" : "Java",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "54f38a0f-f0aa-421b-92e7-a0f204a0d637",
+    "name" : "shipping",
+    "stateful" : false,
+    "programmingLanguage" : "Java",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  }, {
+    "id" : "7b764753-80f5-4166-aa3d-687acf4710da",
+    "name" : "user",
+    "stateful" : false,
+    "programmingLanguage" : "Go",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ],
+    "deploymentOrder" : 0
+  } ]
 }
