@@ -1,97 +1,24 @@
 {
-  "id" : "d809ec9f-e550-459a-95d6-4f69d2f1204d",
-  "name" : "Sockkkk",
+  "id" : "3d3c3424-61cc-4990-8d9c-83887c375116",
+  "name" : "Example",
   "description" : "A generic microservices application",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
-    "unit" : "percentage",
-    "quantitativeAvailability" : "99"
+    "quantitativeAvailability" : 97.0,
+    "unit" : "percentage"
   }, {
-    "kind" : "performance",
+    "kind" : "availability",
     "tags" : [ "Application" ],
-    "unit" : "millisecond",
-    "quantitativeResponseTime" : 100
+    "quantitativeAvailability" : 100.0,
+    "unit" : "percentage"
   } ],
   "microservices" : [ {
-    "id" : "4a400f9d-6bb0-4562-abf3-c66935d74fe9",
-    "name" : "front-end",
+    "id" : "9d04b29c-b0f4-413d-9f17-ce494d33181d",
+    "name" : "example",
     "stateful" : false,
-    "programmingLanguage" : "Html",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "dd213fdf-abae-43de-9c34-411f8acfe313",
-    "name" : "edge-router",
-    "stateful" : false,
-    "programmingLanguage" : "Shell",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "aff848fd-cf05-416b-b860-b6eab0c9092f",
-    "name" : "catalogue",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "34a75a84-ebf2-4440-8492-1c2952a4e6ef",
-    "name" : "carts",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "ad15b2f7-9158-4559-ada8-d2327ed1b286",
-    "name" : "orders",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "dfc9652f-63cf-4522-a7f1-7da02ea0f9a0",
-    "name" : "payment",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "2b0c4f89-7647-4948-beeb-e271ed5a59e8",
-    "name" : "queue-master",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "54f38a0f-f0aa-421b-92e7-a0f204a0d637",
-    "name" : "shipping",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "7b764753-80f5-4166-aa3d-687acf4710da",
-    "name" : "user",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "" ],
