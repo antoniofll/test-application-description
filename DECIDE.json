@@ -7,7 +7,7 @@
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
-    "quantitativeAvailability" : 99.0,
+    "quantitativeAvailability" : 89.0,
     "unit" : "percentage"
   }, {
     "kind" : "performance",
