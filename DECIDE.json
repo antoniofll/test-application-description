@@ -23,5 +23,15 @@
     "publicIP" : false,
     "endpoints" : [ "" ],
     "deploymentOrder" : 0
+  } ],
+  "schema" : [ {
+    "microservices" : [ "fdf98795-2f03-4877-aa68-b9ee6ad4dba2", " 557f6e14-0cfb-40e4-b8e8-5ff97bc7972a", " f0578347-dda4-4bab-8fe2-9f65fc82bebf", " a640c26f-c4bd-471a-8c55-ccef3c961791", " e5e72eac-3d75-4ac4-b28d-47ac4ac5a92a", " 139c05fa-ae9a-42f8-84ad-0e15e5a8aac4", " 7e77d038-ddb5-47e8-b65c-ea9e316ea440", " b5f3e698-5585-4c75-8f2f-ddaae6a4b1fc", " 1fdff99a-b88d-49db-8d87-43d18ad18379" ],
+    "csId" : "56",
+    "index" : 2115759411
+  }, {
+    "microservices" : [ "ba0d6167-5dbd-4c49-bf82-97d76cee7fa0", " 49c08c03-06ef-47d3-9fb6-22be3daf53f9", " 3257b4da-f80d-4053-a167-78a24d4d8bf4", " 45d9b418-e112-43ac-b05a-b896aa04dcb6" ],
+    "csId" : "55",
+    "index" : 2115759597
   } ]
+
 }
