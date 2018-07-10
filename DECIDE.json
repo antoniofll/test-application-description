@@ -1,5 +1,5 @@
 {
-  "id" : "84d833b1-f729-4005-97cc-aaf2d2d2812e",
+  "id" : "c10aec2e-fd12-4f83-a7da-da887a8d6dc3",
   "name" : "Example",
   "description" : "A generic microservices application",
   "version" : "0.2.2-alpha",
@@ -7,19 +7,19 @@
   "nfrs" : [ {
     "kind" : "availability",
     "tags" : [ "Application" ],
-    "quantitativeAvailability" : 88.0,
+    "quantitativeAvailability" : 87.0,
     "unit" : "percentage"
   }, {
     "kind" : "performance",
     "tags" : [ "Application" ],
-    "quantitativeResponseTime" : 100.0,
+    "quantitativeResponseTime" : 20.0,
     "unit" : "millisecond"
   } ],
   "microservices" : [ {
-    "id" : "0df08daa-301e-45da-8cd9-6faad256689e",
-    "name" : "microservice-example",
+    "id" : "07fd8694-1b03-422a-a9b4-e87df9c0f8d0",
+    "name" : "my-ms1",
     "stateful" : false,
-    "programmingLanguage" : "Java",
+    "programmingLanguage" : "Go",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "" ],
