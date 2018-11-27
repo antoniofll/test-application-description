@@ -7,7 +7,7 @@
   "nfrs" : [{
     "type" : "Availability",
     "tags" : [ "Application" ],
-    "quantitativeAvailability" : 98.0,
+    "abstractValue" : "98.0",
     "unit" : "percentage"
   }],
   "microservices" : [ {
