@@ -5,12 +5,12 @@
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [ {
-    "type" : "availability",
+    "type" : "Availability",
     "tags" : [ "Application" ],
     "quantitativeAvailability" : 98.0,
     "unit" : "percentage"
   }, {
-    "type" : "performance",
+    "type" : "Performance",
     "tags" : [ "Application" ],
     "quantitativeResponseTime" : 100.0,
     "unit" : "millisecond"
