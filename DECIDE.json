@@ -5,7 +5,7 @@
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : true,
   "nfrs" : [{
-    "kind" : "availability",
+    "type" : "Availability",
     "tags" : [ "Application" ],
     "quantitativeAvailability" : 98.0,
     "unit" : "percentage"
