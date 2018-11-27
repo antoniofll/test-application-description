@@ -6,7 +6,9 @@
   "highTechnologicalRisk" : false,
   "nfrs" : [{
     "kind" : "availability",
-    "tags" : [ "Application" ]
+    "tags" : [ "Application" ],
+    "quantitativeAvailability" : 98.0,
+    "unit" : "percentage"
   }],
   "microservices" : [ {
     "id" : "fdf98795-2f03-4877-aa68-b9ee6ad4dba2",
