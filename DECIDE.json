@@ -4,11 +4,9 @@
   "description" : "A generic microservices application",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
-  "nfrs" : [ {
+  "nfrs" : [{
     "type" : "Availability",
-    "tags" : [ "Application" ],
-    "quantitativeAvailability" : 98.0,
-    "unit" : "percentage"
+    "tags" : [ "Application" ]
   }],
   "microservices" : [ {
     "id" : "fdf98795-2f03-4877-aa68-b9ee6ad4dba2",
