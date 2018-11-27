@@ -5,7 +5,7 @@
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
   "nfrs" : [{
-    "type" : "Availability",
+    "kind" : "Availability",
     "tags" : [ "Application" ]
   }],
   "microservices" : [ {
