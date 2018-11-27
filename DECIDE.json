@@ -1,83 +1,11 @@
 {
-  "id" : "0dc2a300-f960-42a2-b2b5-99982521aed6",
-  "name" : "MyApp",
-  "description" : "My Description",
+  "id" : "f81b53db-3f3c-4a20-82b2-1d535db28d4f",
+  "name" : "AppDesc Prueba",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
-  "nfrs" : [ {
-    "kind" : "availability",
-    "tags" : [ "Application" ],
-    "quantitativeAvailability" : 90.0,
-    "unit" : "percentage"
-  } ],
   "microservices" : [ {
-    "id" : "b6c88ac6-6910-4b8e-ad3a-0579dbce73b1",
-    "name" : "front-end",
+    "id" : "af2d757b-2403-43b3-9805-691bee6c99d2",
     "stateful" : false,
-    "programmingLanguage" : "Html",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "50da3938-d98b-43a6-bfc9-9d32e2593aad",
-    "name" : "catalogue",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "cf7fac00-1f25-47e7-97af-b1a634f80425",
-    "name" : "carts",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "2297f7db-45b6-44ed-92ec-0ad4a5556aff",
-    "name" : "orders",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "7c9e9eb9-7332-46eb-be74-f77d29a48a72",
-    "name" : "payment",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "4690445c-38f2-47fd-b6cb-9e3dc177b056",
-    "name" : "queue-master",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "2c91afa8-1acc-49ec-98e8-857107ce900e",
-    "name" : "shipping",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0
-  }, {
-    "id" : "28cdac55-99b7-4871-b16b-63d690b4e4d1",
-    "name" : "user",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
     "tags" : [ "Application" ],
     "publicIP" : false,
     "endpoints" : [ "" ],
