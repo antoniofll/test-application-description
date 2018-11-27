@@ -3,12 +3,12 @@
   "name" : "Sock Shop",
   "description" : "A generic microservices application",
   "version" : "0.2.2-alpha",
-  "highTechnologicalRisk" : true,
+  "highTechnologicalRisk" : false,
   "nfrs" : [{
     "type" : "Availability",
     "tags" : [ "Application" ],
     "abstractValue" : "98.0",
-    "value" : "98.0",
+    "value" : 98.0,
     "unit" : "percentage"
   }],
   "microservices" : [ {
