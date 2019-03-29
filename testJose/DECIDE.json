@@ -1,0 +1,13 @@
+{
+  "id" : "56ed1e29-c99c-4835-920d-818a5ced05f5",
+  "name" : "testJose",
+  "version" : "0.2.2-alpha",
+  "highTechnologicalRisk" : false,
+  "microservices" : [ {
+    "id" : "12dae590-1955-4508-9d34-99db03e55e59",
+    "stateful" : false,
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ]
+  } ]
+}
