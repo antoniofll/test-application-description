@@ -1,0 +1,15 @@
+{
+  "id" : "b72c5121-2361-4671-ae95-2b0e3aada9f0",
+  "name" : "testjose2",
+  "version" : "0.2.2-alpha",
+  "highTechnologicalRisk" : false,
+  "microservices" : [ {
+    "id" : "f3ca4517-0f03-40a9-9bdb-7808ff12c597",
+    "name" : "catalogue",
+    "stateful" : false,
+    "programmingLanguage" : "Go",
+    "tags" : [ "Application" ],
+    "publicIP" : false,
+    "endpoints" : [ "" ]
+  } ]
+}
