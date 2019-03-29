@@ -1,247 +1,25 @@
 {
-  "id" : "db4630ad-00e0-4d7a-966b-44288416bf21",
-  "name" : "Sock Shop",
-  "description" : "A generic microservices application",
+  "id" : "08ae7613-f56f-46b3-bbef-f0c85c88b9a3",
+  "name" : "Experis test",
+  "description" : "experis test description",
   "version" : "0.2.2-alpha",
   "highTechnologicalRisk" : false,
-  "nfrs" : [{
-    "kind" : "availability",
+  "nfrs" : [ {
+    "type" : "Availability",
     "tags" : [ "Application" ],
-    "quantitativeAvailability" : 98.0,
+    "abstractValue" : "High",
+    "value" : 99.8,
     "unit" : "percentage"
-  }],
+  } ],
   "microservices" : [ {
-    "id" : "fdf98795-2f03-4877-aa68-b9ee6ad4dba2",
-    "name" : "front-end",
-    "classification" : "Computing Public IP",
-    "stateful" : false,
-    "programmingLanguage" : "HTML",
-    "tags" : [ "Application" ],
-    "publicIP" : true,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "5f33a0c2-ef4d-4be9-992b-372eabbec3b3",
-      "name" : "none",
-      "db" : false,
-      "sql" : false,
-      "classification" : "storage"
-    } ]
-  }, {
-    "id" : "557f6e14-0cfb-40e4-b8e8-5ff97bc7972a",
+    "id" : "60527104-be90-40e4-9889-5ea5a3ab51fa",
     "name" : "catalogue",
-    "classification" : "Computing",
     "stateful" : false,
     "programmingLanguage" : "Go",
     "tags" : [ "Application" ],
     "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "f0578347-dda4-4bab-8fe2-9f65fc82bebf",
-      "name" : "MySQL",
-      "db" : true,
-      "sql" : true,
-      "classification" : "db"
-    } ]
-  }, {
-    "id" : "ba0d6167-5dbd-4c49-bf82-97d76cee7fa0",
-    "name" : "carts",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "49c08c03-06ef-47d3-9fb6-22be3daf53f9",
-      "name" : "Mongo",
-      "db" : true,
-      "sql" : false,
-      "classification" : "db"
-    } ]
-  }, {
-    "id" : "a640c26f-c4bd-471a-8c55-ccef3c961791",
-    "name" : "orders",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "58b6939d-0322-4073-9377-20747f946d1a",
-      "name" : "none",
-      "db" : false,
-      "sql" : false,
-      "classification" : "storage"
-    } ]
-  }, {
-    "id" : "e5e72eac-3d75-4ac4-b28d-47ac4ac5a92a",
-    "name" : "payment",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "139c05fa-ae9a-42f8-84ad-0e15e5a8aac4",
-      "name" : "Mongo",
-      "db" : true,
-      "sql" : false,
-      "classification" : "db"
-    } ]
-  }, {
-    "id" : "7e77d038-ddb5-47e8-b65c-ea9e316ea440",
-    "name" : "queue-master",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "48b17a12-ccb7-4e10-a100-cc43882addf9",
-      "name" : "none",
-      "db" : false,
-      "sql" : false,
-      "classification" : "storage"
-    } ]
-  }, {
-    "id" : "b5f3e698-5585-4c75-8f2f-ddaae6a4b1fc",
-    "name" : "shipping",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Java",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "1fdff99a-b88d-49db-8d87-43d18ad18379",
-      "name" : "RabbitMQ",
-      "db" : false,
-      "sql" : false,
-      "classification" : "queue system"
-    } ]
-  }, {
-    "id" : "3257b4da-f80d-4053-a167-78a24d4d8bf4",
-    "name" : "user",
-    "classification" : "Computing",
-    "stateful" : false,
-    "programmingLanguage" : "Go",
-    "tags" : [ "Application" ],
-    "publicIP" : false,
-    "endpoints" : [ "" ],
-    "deploymentOrder" : 0,
-    "detachableResources" : [ {
-      "id" : "45d9b418-e112-43ac-b05a-b896aa04dcb6",
-      "name" : "Mongo",
-      "db" : true,
-      "sql" : false,
-      "classification" : "db"
-    } ]
+    "endpoints" : [ "" ]
   } ],
-  "recommendedPatterns" : [ {
-    "title" : "User Interface Component",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/user-interface-component",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/availability" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/development" ],
-    "selected" : false
-  }, {
-    "title" : "Elastic Load Balancer",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/elastic-load-balancer",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/performance", "http://decideh2020.eu/resources/patterns/availability" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : true
-  }, {
-    "title" : "Resiliency Management Process",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/resiliency-management-process",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/availability" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : true
-  }, {
-    "title" : "Provider Adapter",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/provider-adapter",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/availability" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : true
-  }, {
-    "title" : "Content Distribution Network",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/content-distribution-network",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/performance" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/deployment" ],
-    "selected" : false
-  }, {
-    "title" : "Elastic Queue",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/elastic-queue",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/scalability", "http://decideh2020.eu/resources/patterns/performance" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : true
-  }, {
-    "title" : "Elastic Load Balancer",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/elastic-load-balancer",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/performance", "http://decideh2020.eu/resources/patterns/availability" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : false
-  }, {
-    "title" : "Elasticity Manager",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/elasticity-manager",
-    "positiveImpacts" : [ "http://decideh2020.eu/resources/patterns/scalability", "http://decideh2020.eu/resources/patterns/performance" ],
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/optimization" ],
-    "selected" : false
-  }, {
-    "title" : "Service Registry",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/service-registry",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : false
-  }, {
-    "title" : "Two-Tier Cloud Application",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/two-tier-cloud-application",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : false
-  }, {
-    "title" : "Loose Coupling",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/loose-coupling",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : true
-  }, {
-    "title" : "Distributed Application",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/distributed-application",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : true
-  }, {
-    "title" : "Three-Tier Cloud Application",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/three-tier-cloud-application",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : true
-  }, {
-    "title" : "Managed Configuration",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/managed-configuration",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : false
-  }, {
-    "title" : "Containerization",
-    "uriRef" : "http://decideh2020.eu/resources/patterns/containerization",
-    "categories" : [ "http://decideh2020.eu/resources/patterncategories/fundamental" ],
-    "selected" : true
-  } ],
-  "schema" : [ {
-    "microservices" : [ "fdf98795-2f03-4877-aa68-b9ee6ad4dba2", " 557f6e14-0cfb-40e4-b8e8-5ff97bc7972a", " f0578347-dda4-4bab-8fe2-9f65fc82bebf", " a640c26f-c4bd-471a-8c55-ccef3c961791", " e5e72eac-3d75-4ac4-b28d-47ac4ac5a92a", " 139c05fa-ae9a-42f8-84ad-0e15e5a8aac4", " 7e77d038-ddb5-47e8-b65c-ea9e316ea440", " b5f3e698-5585-4c75-8f2f-ddaae6a4b1fc", " 1fdff99a-b88d-49db-8d87-43d18ad18379" ],
-    "csId" : "56",
-    "index" : 2115759411
-  }, {
-    "microservices" : [ "ba0d6167-5dbd-4c49-bf82-97d76cee7fa0", " 49c08c03-06ef-47d3-9fb6-22be3daf53f9", " 3257b4da-f80d-4053-a167-78a24d4d8bf4", " 45d9b418-e112-43ac-b05a-b896aa04dcb6" ],
-    "csId" : "55",
-    "index" : 2115759597
-  } ],
-  "monitoring" : {
-    "status" : true,
-    "urls" : [ "http://85.91.40.245:8093" ]
-  }
+  "gitRef" : "https://github.com/antoniofll/test-application-description",
+  "token" : "093b2995e77e9ccefdb3a8a93d997b8f58d315f0"
 }
